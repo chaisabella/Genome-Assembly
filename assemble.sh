@@ -1,0 +1,1 @@
+python3 main.py "$1" "$2" 0 0 'assemble'
