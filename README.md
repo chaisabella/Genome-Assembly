@@ -1,4 +1,3 @@
-This code was written for CS 362 - Computational Biology, by Isabella Cha and Jack Uchitel
 Last run on: Python 3.9.7. 
 
 
@@ -11,7 +10,7 @@ How to compile:
 
 1) To simulate the data:
 Go to main.py. On line 66, change "reads.txt" to the desired output file name for the reads file. 
-Run the shell script with the command:
+
 simulate.sh will take in the following parameters (in this order):
 • FASTA sequence file (string) - File containing a DNA sequence.
 • Coverage (integer) - The coverage of the simulated sequencing experiment.
