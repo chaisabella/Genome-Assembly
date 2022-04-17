@@ -1,9 +1,8 @@
 Last run on: Python 3.9.7. 
 
+Genome assembly of real DNA sequencing data is still a challenging area where many researchers are currently working. This project focuses on a simplified version of the problem using simulated data. The simulation emulates the process of sampling reads from a longer piece of DNA (similar to the output of a DNA sequencing experiment). The program can also construct a De Bruijn graph from a set of reads, and output a visualization of the graph as a .DOT file.
 
-Major Design Choices:
-de_bruijn.py contains the class and methods for making the De Bruijn graph. We run everything in main.py, including the simulation and the graph construction. 
-Depending on the user input, the program will know whether to run the simulation or assemble the graph. 
+de_bruijn.py contains the class and methods for making the De Bruijn graph. Run everything in main.py, including the simulation and the graph construction. Depending on the user input, the program will know whether to run the simulation or assemble the graph. 
 
 
 How to compile: 
